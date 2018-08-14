@@ -1,0 +1,14 @@
+humanoid_walking/params/dt:        0.07
+humanoid_walking/params/lip_dt:    0.005
+humanoid_walking/params/tS:        0.26599999999999996
+humanoid_walking/params/tD:        0.01
+humanoid_walking/params/stepH:     0.05
+humanoid_walking/params/zCCorr:    1
+humanoid_walking/cmd/vx:        0.16
+humanoid_walking/cmd/vy:        0
+humanoid_walking/cmd/vz:        0
+humanoid_walking/cmd/slope:     0
+humanoid_walking/ctrl/delayL:    1
+humanoid_walking/ctrl/delayR:    1
+humanoid_walking/ctrl/delayAll:  1
+humanoid_walking/cmd/walk_flag: false

@@ -1,0 +1,7 @@
+include/humanoid_loadmap/LoadMapNode.h
+include/humanoid_loadmap/Loader.h
+include/humanoid_loadmap/Mapping.h
+src/LoadMapNode.cpp
+src/Loader.cpp
+src/Mapping.cpp
+src/loadmap_node.cpp

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ik>
+    <joint name = "LARM0"  id = "0"  dir = "1"  offset = "0"></joint>
+    <joint name = "LARM1"  id = "1"  dir = "1"  offset = "0"></joint>
+    <joint name = "LARM2"  id = "2"  dir = "1"  offset = "0"></joint>
+    <joint name = "RARM0"  id = "3"  dir = "1"  offset = "0"></joint>
+    <joint name = "RARM1"  id = "4"  dir = "1"  offset = "0"></joint>
+    <joint name = "RARM2"  id = "5"  dir = "1"  offset = "0"></joint>
+    <joint name = "LLEG0"  id = "6"  dir = "1"  offset = "0"></joint>
+    <joint name = "LLEG1"  id = "7" dir = "1"  offset = "0"></joint>
+    <joint name = "LLEG2"  id = "8" dir = "1"  offset = "0"></joint>
+    <joint name = "LLEG3"  id = "9" dir = "1"  offset = "0"></joint>
+    <joint name = "LLEG4"  id = "10" dir = "1"  offset = "0"></joint>
+    <joint name = "LFOOT"  id = "11" dir = "1"  offset = "0"></joint>
+    <joint name = "RLEG0"  id = "12" dir = "1"  offset = "0"></joint>
+    <joint name = "RLEG1"  id = "13" dir = "1"  offset = "0"></joint>
+    <joint name = "RLEG2"  id = "14" dir = "1"  offset = "0"></joint>
+    <joint name = "RLEG3"  id = "15" dir = "1"  offset = "0"></joint>
+    <joint name = "RLEG4"  id = "16" dir = "1"  offset = "0"></joint>
+    <joint name = "RFOOT"  id = "17" dir = "1"  offset = "0"></joint>
+</ik>
+

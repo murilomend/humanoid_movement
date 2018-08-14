@@ -1,0 +1,31 @@
+<launch>
+  <!-- Phidgets -->
+  <arg name="gain"               default="0.20"/>
+  <param name="imu_filter_madgwick/gain"      value="$(arg gain)"/>
+  <node name="imu_filter_madgwick" pkg="imu_filter_madgwick" type="imu_filter_node" output="screen" >   </node>
+
+
+  <!-- Humanoid LoadMap -->
+  <include file="$(find humanoid_loadmap)/launch/loadmap.launch"/>
+    <!-- Humanoid Model -->
+  <rosparam file="$(find humanoid_model)/config/robotParams.yaml" command="load"/>
+
+  <node name="humanoid_model" pkg="humanoid_model" type="humanoidmodel_node" output="screen" >   </node>
+
+
+  <!-- Humanoid Walking -->
+  <rosparam file="$(find humanoid_walking)/config/walkingParams.yaml" command="load"/>
+
+  <node name="humanoid_walking" pkg="humanoid_walking" type="lipwalk_node" output="screen" >   </node>
+
+  <!-- Humanoid Walking -->
+  <node name="humanoid_config" pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen" >   </node>
+
+  <!-- Humanoid Control -->
+  <arg name="dt"               default="0.03"/>
+  <param name="humanoid_control/dt"               value="$(arg dt)"/>
+
+
+  <node name="humanoid_control" pkg="humanoid_control" type="humanoidcontrol_node" output="screen" >   </node>
+
+</launch>

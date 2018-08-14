@@ -1,0 +1,6 @@
+<launch>
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find humanoid_walking)/config/walkingParams.yaml" command="load"/>
+
+  <node name="humanoid_walking" pkg="humanoid_walking" type="lipwalk_node" output="screen" >   </node>
+</launch>

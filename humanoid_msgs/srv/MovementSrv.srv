@@ -1,0 +1,6 @@
+bool                       falling
+humanoid_msgs/WalkingMsg    walk
+humanoid_msgs/HeadMoveMsg   head
+int32                       move
+
+---

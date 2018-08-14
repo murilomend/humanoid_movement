@@ -1,0 +1,4 @@
+fUrdf: "SAKURA_FIX_COMPLETE.urdf"
+fRobot: "robot_config_sakura.xml"
+fIk: "ik_config.xml"
+fEnum: "enum_config.xml"

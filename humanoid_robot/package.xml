@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>humanoid_robot</name>
+  <version>0.0.1</version>
+  <description>
+    Humanoid robot
+  </description>
+  <license>Apache License 2.0</license>
+  <author email="murilomend@yahoo.com.br">Murilo Mendonca Venancio</author>
+  <maintainer email="murilomend@yahoo.com.br">Murilo Mendonca Venancio</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>humanoid_loadmap</run_depend>
+  <run_depend>humanoid_model</run_depend>
+  <run_depend>humanoid_walking</run_depend>
+  <run_depend>humanoid_interface</run_depend>
+  <run_depend>humanoid_qt</run_depend>
+  <export><metapackage/></export>
+</package>

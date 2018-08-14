@@ -1,0 +1,56 @@
+<launch>
+  <!-- Humanoid LoadMap -->
+  <arg name="fUrdf" default="$(find humanoid_loadmap)/config/SAKURA_FIX_COMPLETE.urdf"/>
+  <arg name="fRobot" default="$(find humanoid_loadmap)/config/robot_config.xml"/>
+  <arg name="fIk" default="$(find humanoid_loadmap)/config/ik_config.xml"/>
+  <arg name="fEnum" default="$(find humanoid_loadmap)/config/enum_config.xml"/>
+
+  <param name="fUrdf"      value="$(arg fUrdf)"/>
+  <param name="fRobot"     value="$(arg fRobot)"/>
+  <param name="fIk"        value="$(arg fIk)"/>
+  <param name="fEnum"      value="$(arg fEnum)"/>
+
+  <rosparam file="$(find humanoid_loadmap)/config/time_config.yaml" command="load"/>
+
+  <node name="humanoid_loadmap" pkg="humanoid_loadmap" type="loadmap_node" output="screen" >   </node>
+
+  <!-- Humanoid Interface -->
+  <arg name="device_name"      default="/dev/ttyUSB0"/>
+  <arg name="baud_rate"        default="1000000"/>
+  <arg name="protocol_version" default="2.0"/>
+  <arg name="toRobot"          default="false"/>
+  <arg name="toGazebo"         default="true"/>
+  <arg name="dt"               default="0.07"/>
+
+  <param name="humanoid_interface/device_name"      value="$(arg device_name)"/>
+  <param name="humanoid_interface/baud_rate"        value="$(arg baud_rate)"/>
+  <param name="humanoid_interface/protocol_version" value="$(arg protocol_version)"/>
+  <param name="humanoid_interface/toRobot"          value="$(arg toRobot)"/>
+  <param name="humanoid_interface/toGazebo"         value="$(arg toGazebo)"/>
+  <param name="humanoid_interface/dt"               value="$(arg dt)"/>
+
+
+  <node name="humanoid_interface" pkg="humanoid_interface" type="humanoid_interface_node" output="screen" >   </node>
+
+   <!-- MotorSet -->
+  <param name="motor_set_control/toRobot"          value="$(arg toRobot)"/>
+  <param name="motor_set_control/toGazebo"         value="$(arg toGazebo)"/>
+  <param name="motor_set_control/dt"               value="$(arg dt)"/>
+
+  <node name="motor_set_control" pkg="motor_set_control" type="motorset_node" output="screen" >   </node>
+
+  <!-- Humanoid Walking -->
+  <node name="humanoid_config" pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen" >   </node>
+
+  <!-- Humanoid Control -->
+  <!--<arg name="humanoid_control/dt"               default="0.07"/>
+  <param name="humanoid_control/dt"               value="$(arg dt)"/>-->
+  <rosparam file="$(find humanoid_control)/config/controlParams.yaml" command="load"/>
+
+  <node name="humanoid_control" pkg="humanoid_control" type="humanoidcontrol_node" output="screen" >   </node>
+
+   <!-- MainMovement -->
+  <node name="main_movement" pkg="main_movement" type="main_movement_node" output="screen" >   </node>
+
+
+</launch>

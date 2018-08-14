@@ -1,0 +1,35 @@
+<launch>
+  <!-- Humanoid LoadMap -->
+  <include file="$(find humanoid_loadmap)/launch/loadmap.launch"/>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find humanoid_model)/config/robotParams.yaml" command="load"/>
+
+  <node name="humanoid_model" pkg="humanoid_model" type="humanoidmodel_node" output="screen" >   </node>
+
+
+  <!-- Humanoid Interface -->
+  <arg name="device_name"      default="/dev/ttyUSB0"/>
+  <arg name="baud_rate"        default="1000000"/>
+  <arg name="protocol_version" default="2.0"/>
+  <arg name="toRobot"          default="true"/>
+  <arg name="toGazebo"         default="false"/>
+  <arg name="dt"               default="0.07"/>
+
+  <param name="humanoid_interface/device_name"      value="$(arg device_name)"/>
+  <param name="humanoid_interface/baud_rate"        value="$(arg baud_rate)"/>
+  <param name="humanoid_interface/protocol_version" value="$(arg protocol_version)"/>
+  <param name="humanoid_interface/toRobot"          value="$(arg toRobot)"/>
+  <param name="humanoid_interface/toGazebo"         value="$(arg toGazebo)"/>
+  <param name="humanoid_interface/dt"               value="$(arg dt)"/>
+
+
+  <node name="humanoid_interface" pkg="humanoid_interface" type="humanoid_interface_node" output="screen" >   </node>
+
+
+
+
+   <!-- Humanoid Config -->
+  <node name="humanoid_config" pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen" >   </node>
+
+</launch>

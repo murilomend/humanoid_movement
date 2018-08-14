@@ -1,0 +1,71 @@
+<sdf version='1.6'>
+  <world name='default'>
+    <physics name='default_physics' default='0' type='bullet'>
+     <max_contacts>20</max_contacts>
+      <bullet>
+        <solver>
+          <type>quick</type>
+          <iters>200</iters>
+        </solver>
+      </bullet>
+    </physics>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name='ground_plane'>
+      <static>1</static>
+      <link name='link'>
+        <collision name='collision'>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <bullet>
+		<friction> 100 </friction>
+              </bullet>
+              <torsional>
+              </torsional>
+            </friction>
+            <contact>
+              <collide_without_contact>0</collide_without_contact>
+              <collide_without_contact_bitmask>1</collide_without_contact_bitmask>
+              <collide_bitmask>1</collide_bitmask>
+              <bullet>
+		      <split_impulse>1</split_impulse>
+		      <split_impulse_penetration_threshold>-0.01</split_impulse_penetration_threshold>
+		      <soft_cfm>0</soft_cfm>
+		      <soft_erp>0.2</soft_erp>
+		      <kp>1e+4</kp>
+		      <kd>1</kd>
+              </bullet>
+            </contact>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='visual'>
+          <cast_shadows>0</cast_shadows>
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>10 10</size>
+            </plane>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/White</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <kinematic>0</kinematic>
+        <gravity>1</gravity>
+      </link>
+    </model>
+  </world>
+</sdf>

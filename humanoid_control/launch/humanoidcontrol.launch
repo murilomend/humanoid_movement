@@ -1,0 +1,7 @@
+<launch>
+  <arg name="dt"               default="0.07"/>
+  <param name="humanoid_control/dt"               value="$(arg dt)"/>
+
+
+  <node name="humanoid_control" pkg="humanoid_control" type="humanoidcontrol_node" output="screen" >   </node>
+</launch>

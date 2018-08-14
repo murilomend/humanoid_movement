@@ -1,0 +1,19 @@
+Header                       header
+humanoid_msgs/JointStateMsg  joint
+humanoid_msgs/EndEffStateMsg endEff
+geometry_msgs/Point          ikRef
+
+bool                         calcZMP
+bool                         calcCOM
+bool                         calcInvDyn
+bool                         setIkRef
+bool                         setComAsIkRef
+
+---
+
+geometry_msgs/Point  zmpPoint
+geometry_msgs/Point  comPoint
+geometry_msgs/Point  footComPoint
+float64[]            torq
+
+

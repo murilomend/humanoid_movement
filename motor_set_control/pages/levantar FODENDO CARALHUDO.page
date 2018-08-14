@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <pose time="2" pause_time="0">
+    <joint id="0" pos="-0.010821" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="0.00925025" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.0015708" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.00314159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="0.781035" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-0.782606" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.0675442" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="-0.0614356" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.254644" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="0.251676" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-0.471064" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="0.478744" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="0.665843" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-0.662876" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="-0.273144" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="0.262323" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="0.451168" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-0.178024" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="1.5" pause_time="0">
+    <joint id="0" pos="-0.0705113" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="0.0736529" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.0137881" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.0137881" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="0.771785" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-0.784002" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.0614356" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="-0.039968" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.184132" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="0.217817" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-1.40551" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="1.48824" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="2.36143" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-2.48866" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="-0.267035" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="-0.165632" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="-0.474031" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="0.503353" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="1.5" pause_time="0">
+    <joint id="0" pos="-0.0767945" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="0.0996583" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.0246091" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.00925025" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="1.72002" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-1.67866" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.107338" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="-0.127409" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.260927" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="0.194779" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-0.779464" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="0.825541" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="2.36283" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-2.43648" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="0.142768" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="-0.167203" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="0.124267" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-0.0844739" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="1.5" pause_time="0">
+    <joint id="0" pos="-0.1213" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="0.124267" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.343655" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.343655" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="1.72456" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-1.68005" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.098262" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="-0.107338" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.259356" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="0.21485" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-0.80704" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="0.810182" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="2.34293" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-2.41815" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="0.136485" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="-0.170344" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="0.0797615" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-0.0383972" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="1.5" pause_time="0">
+    <joint id="0" pos="-0.142768" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="0.141197" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.349764" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.346797" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="1.72613" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-1.68005" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.0996583" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="-0.0935496" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.256214" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="0.228638" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-0.808611" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="0.810182" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="2.31692" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-2.40279" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="0.135088" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="-0.167203" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="0.0551524" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-0.0137881" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="1.5" pause_time="0">
+    <joint id="0" pos="-1.57586" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="1.5605" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.323759" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.322188" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="1.72927" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-1.6448" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.0781908" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="-0.0628319" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.118159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="0.0260054" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-0.375944" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="0.388161" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="2.50559" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-2.55167" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="0.0813323" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="-0.122697" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="0.860796" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-0.825541" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="1.5" pause_time="0">
+    <joint id="0" pos="-2.39058" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="2.38744" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.00610865" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.0137881" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="1.9977" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-1.98549" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.0153589" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="0.0429351" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.159523" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="-0.00610865" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="0.279253" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="-0.219388" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="2.47802" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-2.50717" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="-0.00453786" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="0.0368264" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="1.60797" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-1.47306" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="1.5" pause_time="0">
+    <joint id="0" pos="-1.41616" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="1.3748" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.0153589" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.0214675" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="0.849975" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-0.698132" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.018326" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="0.029147" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.151844" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="-0.0122173" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-0.383623" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="0.440347" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="2.51484" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-2.54696" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="-0.00610865" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="0.0368264" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="1.58965" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-1.46067" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="1.5" pause_time="0">
+    <joint id="0" pos="-0.791681" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="0.658164" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.0169297" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.0368264" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="0.098262" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-0.0214675" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.0198968" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="0.0214675" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.148877" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="-0.0137881" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-0.670555" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="0.73042" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="2.55778" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-2.58536" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="-0.0153589" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="0.0445059" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="1.59872" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-1.47917" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="0.75" pause_time="0">
+    <joint id="0" pos="-0.219388" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="0.104371" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.174882" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.207171" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="0.136485" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-0.0567232" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.0214675" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="0.0153589" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.144164" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="-0.010821" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-1.48824" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="1.61408" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="2.58239" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-2.60997" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="-0.0214675" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="0.0490438" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="1.6064" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-1.49295" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+  <pose time="2.5" pause_time="0">
+    <joint id="0" pos="0.0246091" vel="-1" accel="-1" torque="-1"/>
+    <joint id="1" pos="-0.231605" vel="-1" accel="-1" torque="-1"/>
+    <joint id="2" pos="-0.0951204" vel="-1" accel="-1" torque="-1"/>
+    <joint id="3" pos="0.193382" vel="-1" accel="-1" torque="-1"/>
+    <joint id="4" pos="0.159523" vel="-1" accel="-1" torque="-1"/>
+    <joint id="5" pos="-0.0675442" vel="-1" accel="-1" torque="-1"/>
+    <joint id="6" pos="0.0169297" vel="-1" accel="-1" torque="-1"/>
+    <joint id="7" pos="0.0169297" vel="-1" accel="-1" torque="-1"/>
+    <joint id="8" pos="-0.0521853" vel="-1" accel="-1" torque="-1"/>
+    <joint id="9" pos="0.0169297" vel="-1" accel="-1" torque="-1"/>
+    <joint id="10" pos="-1.20445" vel="-1" accel="-1" torque="-1"/>
+    <joint id="11" pos="1.24128" vel="-1" accel="-1" torque="-1"/>
+    <joint id="12" pos="1.43152" vel="-1" accel="-1" torque="-1"/>
+    <joint id="13" pos="-1.50674" vel="-1" accel="-1" torque="-1"/>
+    <joint id="14" pos="-0.115017" vel="-1" accel="-1" torque="-1"/>
+    <joint id="15" pos="0.069115" vel="-1" accel="-1" torque="-1"/>
+    <joint id="16" pos="0.82397" vel="-1" accel="-1" torque="-1"/>
+    <joint id="17" pos="-0.794823" vel="-1" accel="-1" torque="-1"/>
+    <joint id="18" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+    <joint id="19" pos="-3.14159" vel="-1" accel="-1" torque="-1"/>
+  </pose>
+</page>

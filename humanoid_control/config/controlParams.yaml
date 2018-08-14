@@ -1,0 +1,17 @@
+humanoid_control/armKd: 0
+humanoid_control/armKi: 0
+humanoid_control/armKp: 0.3
+humanoid_control/arm_ctrl_flag: false
+humanoid_control/ctrl_flag: false
+humanoid_control/dt: 0.07
+humanoid_control/kpFootPitch: 80
+humanoid_control/kpFootRoll: 80
+humanoid_control/kpHipPitch: 80
+humanoid_control/kpHipRoll: 80
+humanoid_control/kpKneePitch: 80 
+humanoid_control/kpUpperBody: 80
+humanoid_control/torsoKd: 0
+humanoid_control/torsoKi: 0
+humanoid_control/torsoKp: 0.03
+humanoid_control/torso_ctrl_flag: false
+

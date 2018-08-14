@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="SAKURA">
+    <jointIDs>
+        <joint name = "TRUNK"  id = "20" dir = "1"  offset = "0"   motorRef = "2048"  motorCCWLim = "4096"  motorCWLim = "0"></joint>
+        <joint name = "HEAD0"  id = "18" dir = "1"  offset = "0"   motorRef = "2048"  motorCCWLim = "3070"  motorCWLim = "1080"></joint>
+        <joint name = "HEAD1"  id = "19" dir = "1"  offset = "0"   motorRef = "2048"  motorCCWLim = "4096"  motorCWLim = "0"></joint>
+        <joint name = "LARM0"  id = "1"  dir = "1"  offset = "0"  motorRef = "2048"  motorCCWLim = "3072"  motorCWLim = "296"></joint>
+        <joint name = "LARM1"  id = "3"  dir = "1"  offset = "0"  motorRef = "620"  motorCCWLim = "2700"  motorCWLim = "0"></joint>
+        <joint name = "LARM2"  id = "5"  dir = "1"  offset = "0"  motorRef = "2048"  motorCCWLim = "2200"  motorCWLim = "700"></joint>
+        <joint name = "RARM0"  id = "0"  dir = "-1"  offset = "0"  motorRef = "2048"  motorCCWLim = "3800"  motorCWLim = "1024"></joint>
+        <joint name = "RARM1"  id = "2"  dir = "1"  offset = "0"   motorRef = "3396"  motorCCWLim = "4000"  motorCWLim = "1600"></joint>
+        <joint name = "RARM2"  id = "4"  dir = "-1"  offset = "0"  motorRef = "2048"  motorCCWLim = "3370"  motorCWLim = "1900"></joint>
+
+        <joint name = "LLEG0"  id = "7"  dir = "-1"  offset = "0"  motorRef = "2048"  motorCCWLim = "2500"  motorCWLim = "1400"></joint>
+        <joint name = "LLEG1"  id = "9"  dir = "1"  offset = "0"   motorRef = "2048"  motorCCWLim = "4096"  motorCWLim = "0"></joint>
+        <joint name = "LLEG2"  id = "11" dir = "-1"  offset = "0"  motorRef = "2048"  motorCCWLim = "3300"  motorCWLim = "1000"></joint>
+        <joint name = "LLEG3"  id = "13" dir = "-1"  offset = "0"   motorRef = "2400"  motorCCWLim = "2400"  motorCWLim = "640"></joint>
+        <joint name = "LLEG4"  id = "17" dir = "1"  offset = "0"  motorRef = "2048"  motorCCWLim = "3000"  motorCWLim = "1000"></joint>
+        <joint name = "LFOOT"  id = "15" dir = "-1"  offset = "0"  motorRef = "2048"  motorCCWLim = "2400"  motorCWLim = "1700"></joint>
+
+		<joint name = "RLEG0"  id = "6"  dir = "-1"  offset = "0"   motorRef = "2048"  motorCCWLim = "2500"  motorCWLim = "1400"></joint>
+        <joint name = "RLEG1"  id = "8"  dir = "1"  offset = "0"  motorRef = "2048"  motorCCWLim = "2150"  motorCWLim = "1500"></joint>
+        <joint name = "RLEG2"  id = "10" dir = "1"  offset = "0"  motorRef = "2048"  motorCCWLim = "3000"  motorCWLim = "650"></joint>
+        <joint name = "RLEG3"  id = "12" dir = "1"  offset = "0"   motorRef = "1650"  motorCCWLim = "3550"  motorCWLim = "1650"></joint>
+        <joint name = "RLEG4"  id = "16" dir = "-1"  offset = "0"  motorRef = "2048"  motorCCWLim = "3100"  motorCWLim = "1050"></joint>
+        <joint name = "RFOOT"  id = "14" dir = "-1"  offset = "0"  motorRef = "2048"  motorCCWLim = "2400"  motorCWLim = "1700"></joint><!---->
+    </jointIDs>
+    
+
+</robot>

@@ -1,0 +1,14 @@
+<launch>
+  <!-- Load Id Map configs -->
+  <arg name="fUrdf" default="$(find humanoid_loadmap)/config/SAKURA_FIX_COMPLETE.urdf"/>
+  <arg name="fRobot" default="$(find humanoid_loadmap)/config/robot_config_stek.xml"/>
+  <arg name="fIk" default="$(find humanoid_loadmap)/config/ik_config.xml"/>
+  <arg name="fEnum" default="$(find humanoid_loadmap)/config/enum_config.xml"/>
+
+  <param name="fUrdf"      value="$(arg fUrdf)"/>
+  <param name="fRobot"     value="$(arg fRobot)"/>
+  <param name="fIk"        value="$(arg fIk)"/>
+  <param name="fEnum"      value="$(arg fEnum)"/>
+
+  <node name="humanoid_loadmap" pkg="humanoid_loadmap" type="loadmap_node" output="screen" >   </node>
+</launch>

@@ -1,0 +1,49 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  arm0: 0.0
+  arm1: 0.0
+  arm2: 70.2
+  calcCOM: false
+  calcFK: false
+  calcIK: true
+  calcInvDyn: false
+  calcZMP: false
+  comX: 0.011999999999999999
+  comY: 0.0
+  comZ: 0.475
+  dt: 0.07
+  footIncl: 1.6
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      arm0: 0.0
+      arm1: 0.0
+      arm2: 70.2
+      calcCOM: false
+      calcFK: false
+      calcIK: true
+      calcInvDyn: false
+      calcZMP: false
+      comX: 0.011999999999999999
+      comY: 0.0
+      comZ: 0.475
+      dt: 0.07
+      footIncl: 1.6
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      incl: 18.0
+      name: Default
+      open: 0.072
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      sideIncl: 3.5999999999999996
+      squat: 0.041999999999999996
+      state: true
+      type: ''
+    state: []
+  incl: 18.0
+  open: 0.072
+  sideIncl: 3.5999999999999996
+  squat: 0.041999999999999996
+state: []

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>humanoid_general</name>
+  <version>0.0.0</version>
+  <description>General porpouse libraries</description>
+  <license>BSD</license>
+  <author email="murilomend92@gmail.com">Murilo Mendonca</author>
+  <maintainer email="murilomend92@gmail.com">Murilo Mendonca</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <export></export>
+</package>
+
+

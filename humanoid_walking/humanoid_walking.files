@@ -1,0 +1,6 @@
+CMakeLists.txt
+include/humanoid_walking/LipWalk.h
+package.xml
+src/LipWalk.cpp
+src/LipWalkNode.cpp
+src/lipwalk_node.cpp

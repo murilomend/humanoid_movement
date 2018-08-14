@@ -1,0 +1,9 @@
+bool    walk_flag  #true for walking, false to stop
+bool    reset_walk 
+float64 vx
+float64 vy
+float64 vz
+
+---
+
+

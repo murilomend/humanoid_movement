@@ -1,0 +1,129 @@
+SAKURA:
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+
+  joint_position_controller:
+   type: effort_controllers/JointTrajectoryController
+   gains:
+     J_RARM0:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_RARM1:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_RARM2:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_LARM0:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_LARM1:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_LARM2:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_RLEG0:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_RLEG1:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_RLEG2:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_RLEG3:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_RLEG4:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_RFOOT:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_LLEG0:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_LLEG1:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_LLEG2:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_LLEG3:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_LLEG4:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_LFOOT:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_HEAD0:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+     J_HEAD1:
+        d: 0.01
+        i: 10
+        i_clamp: 1
+        p: 100
+   joints:
+    - J_RARM0
+    - J_LARM0
+    - J_RARM1
+    - J_LARM1
+    - J_RARM2
+    - J_LARM2
+    - J_RLEG0
+    - J_LLEG0
+    - J_RLEG1
+    - J_LLEG1
+    - J_RLEG2
+    - J_LLEG2
+    - J_RLEG3
+    - J_LLEG3
+    - J_RFOOT
+    - J_LFOOT
+    - J_RLEG4
+    - J_LLEG4
+    - J_HEAD0
+    - J_HEAD1

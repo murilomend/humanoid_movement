@@ -1,0 +1,39 @@
+humanoid_model/dt:  0.07
+
+humanoid_model/walk/squat:  0.038
+humanoid_model/walk/open:   0.03
+humanoid_model/walk/arm0:   0
+humanoid_model/walk/arm1:   0
+humanoid_model/walk/arm2:   41.4
+humanoid_model/walk/incl:   0
+humanoid_model/walk/footIncl: 0
+humanoid_model/walk/sideIncl: 0
+
+humanoid_model/walk/comX: 0.0
+humanoid_model/walk/comY: 0.0
+humanoid_model/walk/comZ: 0.475
+
+humanoid_model/override_com: true
+
+humanoid_model/P_LEG_D0: 0.055
+humanoid_model/P_LEG_D1: 0.05
+humanoid_model/P_LEG_D2: 0.203
+humanoid_model/P_LEG_D3: 0.201
+humanoid_model/P_LEG_D4: 0.06
+
+/humanoid_model/walk/calcCOM: false
+/humanoid_model/walk/calcFK:  false
+/humanoid_model/walk/calcIK:  true
+/humanoid_model/walk/calcInvDyn: false
+/humanoid_model/walk/calcZMP: false
+
+
+
+humanoid_model/P_ARM_D0: 0
+humanoid_model/P_ARM_D1: 0
+humanoid_model/P_ARM_D2: 0
+
+humanoid_model/P_FOOT_W: 0
+humanoid_model/P_FOOT_H: 0
+humanoid_model/P_FOOT_X: 0
+humanoid_model/P_FOOT_Y: 0

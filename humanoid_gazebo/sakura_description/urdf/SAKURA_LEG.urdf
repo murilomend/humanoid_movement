@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<robot
+  name="SAKURA">
+    <link name="base_link">
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+  </link>
+  <link
+    name="LLEG0">
+    <inertial>
+      <origin
+        xyz="1.38777878078145E-17 1.38777878078145E-17 0.012339611662812"
+        rpy="0 0 0" />
+      <mass
+        value="0.137487098095279" />
+      <inertia
+        ixx="261013E-09"
+        ixy="0"
+        ixz="0"
+        iyy="261013E-09"
+        iyz="0"
+        izz="52831E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG0.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.650980392156863 0.619607843137255 0.588235294117647 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG0.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J_LLEG0"
+    type="fixed">
+    <origin
+	  xyz="0 0 0.475"
+      rpy="-3.14159265358979 1.21430643318376E-16 -1.5707963267949" />
+    <parent
+      link="base_link" />
+    <child
+      link="LLEG0" />
+  </joint>
+  <link
+    name="LLEG1">
+    <inertial>
+      <origin
+        xyz="-4.90216563097182E-05 -0.014933566350856 -0.0542307430726147"
+        rpy="0 0 0" />
+      <mass
+        value="0.484317524341268" />
+      <inertia
+        ixx="0.000258532465487086"
+        ixy="-1.08430216395215E-08"
+        ixz="-4.93107012410751E-07"
+        iyy="0.000256538006237082"
+        iyz="8.86337248194806E-06"
+        izz="4.00980160512074E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J_LLEG1"
+    type="continuous">
+    <origin
+      xyz="0.056 0 0.036"
+      rpy="-1.5707963267949 -1.22338662637834E-16 -1.5707963267949" />
+    <parent
+      link="LLEG0" />
+    <child
+      link="LLEG1" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="LLEG2">
+    <inertial>
+      <origin
+        xyz="0.0896135033902749 -0.121669815792639 -0.0285739776731877"
+        rpy="0 0 0" />
+      <mass
+        value="0.429581814867276" />
+      <inertia
+        ixx="0.000739443276879588"
+        ixy="0.000469298592224479"
+        ixz="-4.17657698668898E-06"
+        iyy="0.00045781924000273"
+        iyz="4.49877955818474E-06"
+        izz="0.00100793675092908" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J_LLEG2"
+    type="continuous">
+    <origin
+      xyz="0.0289999999999999 0 -0.0750000000000234"
+      rpy="-1.5707963267949 0.78539816339745 -1.5707963267949" />
+    <parent
+      link="LLEG1" />
+    <child
+      link="LLEG2" />
+    <axis
+      xyz="0 0 -1" />
+  </joint>
+  <link
+    name="LLEG3">
+    <inertial>
+      <origin
+        xyz="0.0938607247050214 0.021121469241447 -0.0266864244548486"
+        rpy="0 0 0" />
+      <mass
+        value="0.253457988874213" />
+      <inertia
+        ixx="0.000157893827081503"
+        ixy="4.33507693026071E-06"
+        ixz="2.38137513758817E-06"
+        iyy="0.000215254509125973"
+        iyz="4.49605098935315E-06"
+        izz="7.90936329999813E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J_LLEG3"
+    type="continuous">
+    <origin
+      xyz="0.112429978208667 -0.169643181644254 0.00160000000000024"
+      rpy="-0.0320557226319531 0.0283578707512148 -1.01721646459287" />
+    <parent
+      link="LLEG2" />
+    <child
+      link="LLEG3" />
+    <axis
+      xyz="0.0283540701513945 0.0320373469653184 -0.999084408398647" />
+  </joint>
+  <link
+    name="LLEG4">
+    <inertial>
+      <origin
+        xyz="0.0207692569273853 -0.0149335663508559 -0.0309509783436903"
+        rpy="0 0 0" />
+      <mass
+        value="0.484317524341267" />
+      <inertia
+        ixx="4.00980160512071E-06"
+        ixy="8.86337248194725E-06"
+        ixz="4.93107012410836E-07"
+        iyy="0.000256538006237082"
+        iyz="1.08430216395228E-08"
+        izz="0.000258532465487085" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LLEG4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J_LLEG4"
+    type="continuous">
+    <origin
+      xyz="0.19759 0.040682 0.007913"
+      rpy="0.034963 0.024684 -1.339" />
+    <parent
+      link="LLEG3" />
+    <child
+      link="LLEG4" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="LFOOT">
+    <inertial>
+      <origin
+        xyz="-0.00984398078216434 0.033081446163245 0.0742424926896279"
+        rpy="0 0 0" />
+      <mass
+        value="0.474832547151362" />
+      <inertia
+        ixx="5.51319710395952E-05"
+        ixy="8.95545085142721E-06"
+        ixz="2.1883900378474E-05"
+        iyy="5.73648543375659E-05"
+        iyz="-1.93251189181957E-05"
+        izz="1.80495475741546E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LFOOT.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sakura_pkg/meshes/LFOOT.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="J_LFOOT"
+    type="continuous">
+    <origin
+      xyz="0.072 0 -0.031"
+      rpy="0 -1.5708 0" />
+    <parent
+      link="LLEG4" />
+    <child
+      link="LFOOT" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="0"
+      velocity="0" />
+  </joint>
+
+</robot>

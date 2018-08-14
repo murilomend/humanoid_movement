@@ -1,0 +1,14 @@
+bool toGazebo
+bool toRobot
+bool scanMotors
+bool getPID
+bool getMotorPos
+bool send2Motor
+bool[] setTorque
+int16  motorIds
+bool   fall
+
+---
+humanoid_msgs/JointStateMsg motorState
+humanoid_msgs/MotorPIDMsg   motorPID
+int16[]                     ids

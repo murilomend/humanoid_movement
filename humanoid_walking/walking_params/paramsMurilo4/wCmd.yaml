@@ -1,0 +1,25 @@
+!!python/object/new:dynamic_reconfigure.encoding.Config
+dictitems:
+  groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+    dictitems:
+      groups: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      id: 0
+      name: Default
+      parameters: !!python/object/new:dynamic_reconfigure.encoding.Config
+        state: []
+      parent: 0
+      slope: 4.0
+      state: true
+      type: ''
+      vx: 0.46
+      vy: 0.0
+      vz: 0.0
+      walk_flag: false
+    state: []
+  slope: 4.0
+  vx: 0.46
+  vy: 0.0
+  vz: 0.0
+  walk_flag: false
+state: []

@@ -1,0 +1,7 @@
+bool    walk_ctrl  #true for walking, false to stop
+float64 delayR
+float64 delayL
+float64 delayAll
+---
+
+

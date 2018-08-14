@@ -1,0 +1,12 @@
+Header header
+string fEnum
+string fRobot
+string fUrdf
+string fIk
+bool   update
+
+
+---
+
+humanoid_msgs/IDMapMsg  idMap
+
